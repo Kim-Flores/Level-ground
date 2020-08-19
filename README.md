@@ -3,25 +3,24 @@
 Live Code: https://kimflores-levelground.netlify.app
 
 # How It's Made:
-Tech used: HTML, CSS, JavaScript, Framework of choice
+### Tech used: 
+My task was to replicate the Level Ground homepage with **HTML** and **CSS**. I was given a screenshot as reference and implemented media queries for responsiveness. 
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write something. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+![Level Ground Final](levelgroundimg.png)
 
-Optimizations
-(optional)
 
-You don't have to include this section but interviewers love that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are GREAT to bring up in interviews and you can use this section as reference when studying for technical interviews!
+
 
 # Lessons Learned:
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those whoa this is awesome or fuck yeah I did it! moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+One of the more straightforward sites that taught me how content should be made responsive to maintain a streamline appearance. Applying the "Mobile First" principle to the wireframe showed me that less is more, specifically in the footer and classes section. 
 
 # Examples:
 Take a look at these couple examples that I have in my own portfolio:
 
-Palettable: https://github.com/alecortega/palettable
+BBC: https://github.com/Kim-Flores/BBC
 
-Twitter Battle: https://github.com/alecortega/twitter-battle
+Yelp: https://github.com/Kim-Flores/Yelp
 
-Patch Panel: https://github.com/alecortega/patch-panel
+Venture Beat: https://kimflores-venturebeat.netlify.app
 
-Tech Used HTML and CSS: This site was built using HTML, CSS, and media queries for responsiveness. This was the most simple wireframe I’ve done from a range of projects. It was cool to see what a potential wireframe for clients can look like and how effective they are at conveying how the full site will function.
+JWLI: https://github.com/Kim-Flores/JWLI
