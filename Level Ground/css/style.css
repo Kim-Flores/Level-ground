@@ -1,0 +1,356 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Oswald";
+}
+
+html{
+  font-size: 10px;
+}
+
+header{
+  background-color:#66768a;
+  height: 100px;
+}
+/*NAVIGATION*/
+
+nav{
+  padding-top: 15px;
+}
+.navLink{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #FFF;
+  margin: 3% 2% 0 2%;
+}
+
+.topLink, .logo, .donate{
+  float: left;
+  width: 33.3%;
+}
+
+.logo{
+  padding-left: 14%;
+}
+
+.logoImg{
+  width: 12%;
+}
+
+.donate{
+  padding-left: 28%;
+}
+.grit, .why, .volunteer{
+  text-align: center;
+}
+
+.mainTxt{
+  width: 40%;
+  line-height: 25px;
+  margin: 2% 0 2% 30%;
+}
+.txt{
+  font-size: 1.6rem;
+  line-height: 25px;
+}
+
+.donate{
+  padding-left: 28%;
+}
+
+.donateBtn{
+  color: #778597;
+  border: none;
+  border-radius: 2px;
+  width: 80%;
+  height: 30px;
+}
+
+
+/*GRIT - FIRST SECTION*/
+
+.grit{
+  clear: both;
+  height: 300px;
+  background-color: #66768A;
+  color: #FFF;
+}
+
+.mainTxt, .vid{
+  font-size: 1.5rem;
+  line-height: 35px;
+}
+.title1{
+  font-size: 4rem;
+}
+
+/*WHY - 2ND SECTION*/
+.why{
+  width: 40%;
+  margin: 6% 0% 0 30%;
+  height: 250px;
+  line-height: 35px;
+}
+
+.title2{
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+/* PROMO - 3RD SECTION*/
+.contact{
+  height: 400px;
+  background-color: #DBDFE2;
+}
+
+.promo{
+  float: left;
+  width: 50%;
+  padding: 5%;
+  text-align: center;
+}
+
+.image{
+  width: 40%;
+  height: 140px;
+  background-color: #66768A;
+  margin-left: 30%;
+}
+
+/*VOLUNTEER - 4TH SECTION*/
+.volunteer{
+  height: 300px;
+  width: 40%;
+  margin: 5% 0% 0 30%;
+}
+
+.infoBtn{
+  margin-top: 3.5%;
+  width: 20%;
+  height: 10%;
+}
+
+/*FOOTER*/
+footer{
+  height: 200px;
+  background-color: #161F2A;
+  font-size: 1.5rem;
+  color: #FFF;
+  padding: 2% 3%;
+}
+
+footer a {
+  text-decoration: none;
+  color:#FFF;
+  margin: 15px 12px 5px 0;
+}
+
+.footleft{
+  float:left;
+  margin-bottom: 2%;
+}
+
+.address{
+  float: right;
+  width: 20%;
+}
+
+.address li{
+  list-style: none;
+}
+.footleft li{
+  list-style: none;
+  display: inline-block;
+}
+
+.footerBtm{
+  clear: both;
+  width:95%;
+  padding-top: 10px;
+  border-top: 1px solid #FFF;
+}
+
+
+
+
+
+/* MEDIA QUERIES BEGIN!!! */
+
+@media only screen and (max-width:650px){
+/* TOP LINK */
+  .logoImg {
+    width: 55%;
+  }
+  .topLink{
+    padding-left: 5%;
+  }
+  .donate {
+    padding-left: 9%;
+  }
+
+/* GRIT */
+  .mainTxt{
+    display: none;
+  }
+
+  .vid{
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 10%;
+  }
+
+/* WHY */
+
+  .why {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding: 6%;
+  }
+
+/* CONTACT */
+
+  .contact{
+    height: 512px;
+  }
+
+  .promo{
+    width: 100%;
+  }
+
+  .txt1{
+    display: none;
+  }
+
+/* VOLUNTEER */
+
+  .infoBtn{
+    width: 32%;
+  }
+
+  .volunteer h2{
+    padding-top: 20%;
+  }
+
+
+/* FOOTER */
+
+  footer{
+    height: auto;
+  }
+
+  .footleft, .address{
+    display: none;
+  }
+
+
+}
+
+
+
+@media (min-width:651px) and (max-width:850px){
+/* TOP LINK */
+  .logoImg {
+    width: 35%;
+  }
+  .topLink{
+    padding-left: 5%;
+  }
+  .donate {
+    padding-left: 9%;
+  }
+/* GRIT */
+  .mainTxt {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 5%;
+  }
+
+    .vid{
+      font-size: 2rem;
+    }
+/* WHY */
+.why {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  padding: 6%;
+}
+/* CONTACT */
+  .contact{
+    height: 800px;
+  }
+  .promo{
+    width: 100%;
+  }
+
+  .promo h2{
+    margin: 12px;
+  }
+/* VOLUNTEER */
+  .volunteer{
+    height:auto;
+    margin-bottom: 5%;
+  }
+
+  .txt2{
+    display: none;
+  }
+/* FOOTER */
+
+  .address{
+    display: none;
+  }
+  footer{
+    height: auto;
+  }
+
+
+
+}
+
+
+
+@media (min-width:851px) and (max-width:1000px){
+/* TOP LINK */
+  .logoImg {
+    width: 35%;
+  }
+  .topLink{
+    padding-left: 5%;
+  }
+  .donate {
+    padding-left: 9%;
+  }
+
+  .donateBtn{
+    width: 65%;
+  }
+
+/* GRIT */
+  .mainTxt {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 5%;
+  }
+
+    .vid{
+      font-size: 2rem;
+    }
+/* WHY */
+
+/* CONTACT */
+  .promo p{
+    font-size: 1.5rem;
+  }
+/* VOLUNTEER */
+  .volunteer{
+    height: auto;
+    margin: 0;
+    width: 100%;
+    padding: 4% 5%;
+  }
+/* FOOTER */
+}
